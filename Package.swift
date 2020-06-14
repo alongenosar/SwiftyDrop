@@ -13,6 +13,6 @@ let package = Package(
     ],
   
     targets: [
-        .target(name: "Drop", dependencies: [])
+        .target(name: "Drop", path: "SwiftyDrop", dependencies: [])
     ]
 )
