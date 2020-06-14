@@ -6,10 +6,12 @@ let package = Package(
     platforms: [
         .iOS
     ],
+    dependencies: [
+    ],
     products: [
         .library(name: "Drop", targets: ["Drop"]),
     ],
     targets: [
-        .target(name: "Drop")
+        .target(name: "Drop", dependencies: [])
     ]
 )
